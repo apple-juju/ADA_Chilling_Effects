@@ -65,4 +65,15 @@ From all of the available articles we only retained those with an average score 
 
 <img src="\images\wordcloud.jpg">
 
-We decided to focus solely on German-language articles because 
+We decided to focus solely on German-language articles because the location of German speaking countries is mostly in Europe and therefore directly effected by GDPR. Let's confirm this theory by observing the geographical origin of the pageviews for de.wikipedia.org.
+
+We can split this data into distinct origins:
+
+- Germany
+- Austria
+- Switzerland
+- Liechtenstein
+- The rest of the European Economic Area (EEA)
+- The rest of the world
+
+It is of note that Switzerland is not part of the EEA; however, since it is landlocked and all of its neighbours EEA members, and since GDPR-compliance is mandatory for selling digital services within the EEA, we can safely consider Switzerland to have been strongly impacted by GDPR too. It is also of note that the UK was included in this analysis as it is still considered as being part of the EEA in 2020.
