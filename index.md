@@ -1,30 +1,12 @@
-## Welcome to GitHub Pages
+## Chilling Effects : Online Surveillance and Wikipedia Use
+In June 2013, Edward Snowden revealed the extent of mass surveillance in the United States. As a result of this the question arose : Did this news produce a "chilling effect"? In other terms, did Wikipedia traffic for articles on privacy-sensitive topics decrease after the “exogenous shock” of widespread publicity surrounding the surveillance programs in June 2013?
 
-You can use the [editor on GitHub](https://github.com/apple-juju/apple-juju.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+But what exactly is a "Chilling Effect" ?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+Wikipedia defines it as "In a legal context, the inhibition or discouragement of the legitimate exercise of natural and legal rights by the threat of legal sanction"
 
 [Link](url) and ![Image](src)
-```
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
