@@ -61,4 +61,6 @@ Once we had this list compiled, we asked people to rank the pages from 1 to 5 (5
 
 <img src="\images\all_gdpr_wordcloud.jpg">
 
+From all of the available articles we only retained those with an average score of 3 or higher, thus resulting in a dataset of 45 articles.
+
 <img src="\images\wordcloud.jpg">
