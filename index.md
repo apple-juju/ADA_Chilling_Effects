@@ -47,4 +47,15 @@ If we compare this with the pageviews of the most popular Wikipedia articles ove
 <img src="\images\most_popular.JPG">
 
 
+## Our extention : the effect of the GDPR
+
+Questions can be asked as to the effect of liberty on our internet usage. If a feeling of being watched could curtail our curiosty on certain subjects, could the feeling of freedom encourage to seek out information? This was the question we asked ourselves and used the General Data Protection Regulation (GDPR) as our basis.
+
+Would the knowledge that your privacy was better protected push you to seek out the how and the way of that protection? Let's look into it.
+
+We started by collecting possible Wikipedia articles that could be of interest to the problem. We did this by simply visiting the Wikipedia page for "General Data Protection Regulation" and creating a list of all the referenced articles it contained (links in blue)
+
+<img src="\images\GDPR.jpg">
+
+
 <img src="\images\wordcloud.jpg">
