@@ -18,4 +18,4 @@ The approach was to analyse the number of views of certain English language Wiki
 
 
 
-<img src="\images\wordcloud.png">
+<img src="\images\wordcloud.jpg">
