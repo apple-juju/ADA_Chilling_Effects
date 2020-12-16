@@ -4,11 +4,11 @@ In June 2013, Edward Snowden revealed the extent of mass surveillance in the Uni
 
 <img src="\images\surveillance.jpg">
 
-But what exactly is a "Chilling Effect" ?
+But what exactly is a "Chilling Effect" ? Wikipedia defines it as:
 
 ---
 
-Wikipedia defines it as "In a legal context, the inhibition or discouragement of the legitimate exercise of natural and legal rights by the threat of legal sanction"
+"In a legal context, the inhibition or discouragement of the legitimate exercise of natural and legal rights by the threat of legal sanction"
 
 ---
 
