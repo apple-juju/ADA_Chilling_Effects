@@ -53,6 +53,8 @@ Questions can be asked as to the effect of liberty on our internet usage. If a f
 
 Would the knowledge that your privacy was better protected push you to seek out the how and the way of that protection? Let's look into it.
 
+### Data Collection
+
 We started by collecting possible Wikipedia articles that could be of interest to the problem. We did this by simply visiting the Wikipedia page for "General Data Protection Regulation" and creating a list of all the referenced articles it contained (links in blue)
 
 <img src="\images\GDPR.jpg">
@@ -64,6 +66,8 @@ Once we had this list compiled, we asked people to rank the pages from 1 to 5 (5
 From all of the available articles we only retained those with an average score of 3 or higher, thus resulting in a dataset of 45 articles.
 
 <img src="\images\wordcloud.jpg">
+
+### Why German?
 
 We decided to focus solely on German-language articles because the location of German speaking countries is mostly in Europe and therefore directly effected by GDPR. Let's confirm this theory by observing the geographical origin of the pageviews for de.wikipedia.org.
 
@@ -77,3 +81,15 @@ We can split this data into distinct origins:
 - The rest of the world
 
 It is of note that Switzerland is not part of the EEA; however, since it is landlocked and all of its neighbours EEA members, and since GDPR-compliance is mandatory for selling digital services within the EEA, we can safely consider Switzerland to have been strongly impacted by GDPR too. It is also of note that the UK was included in this analysis as it is still considered as being part of the EEA in 2020.
+
+We now plot the 2020 de.wikipedia.org pageviews with respect to these groups.
+
+**joli graph des drapeaux 2020**
+
+An argument could be made that coronavirus has upset so many things in 2020 that perhaps it altered the pageview origins as well. Alright, then let's do the same analysis for 2019 de.wikipedia.org pageviews.
+
+**joli graph 2019**
+
+As we can see both graphs as extremely similar and prove our hypothesis on the origin of German-language pageviews; they come almost entirely from Europeen countries, countries that are effected by GDPR.
+
+Let's delve furthur into our German article analysis...
