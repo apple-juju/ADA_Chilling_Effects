@@ -44,7 +44,7 @@ If we compare this with the pageviews of the most popular Wikipedia articles ove
 
 **avoir graph plus joli**
 
-<img src="\images\most_popular.jpg">
+<img src="\images\most_popular.JPG">
 
 
 <img src="\images\wordcloud.jpg">
