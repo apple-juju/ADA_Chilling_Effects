@@ -4,7 +4,7 @@ In June 2013, Edward Snowden revealed the extent of mass surveillance in the Uni
 
 <img src="\images\surveillance.jpg">
 
-But what exactly is a "Chilling Effect" ? Wikipedia defines it as:
+### But what exactly is a "Chilling Effect" ? Wikipedia defines it as:
 
 ---
 
@@ -12,7 +12,7 @@ But what exactly is a "Chilling Effect" ? Wikipedia defines it as:
 
 ---
 
-How do we prove this chilling effect exists?
+### How do we prove this chilling effect exists?
 
 The approach was to analyse the number of views of certain English language Wikipedia articles. The list of articles was chosen from a list of keywords the U.S. Department of Homeland Security uses to track and monitor social media and the most pertinent ones were chosen through a crowdsorcing process.
 
