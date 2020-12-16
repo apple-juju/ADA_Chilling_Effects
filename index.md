@@ -15,3 +15,7 @@ Wikipedia defines it as "In a legal context, the inhibition or discouragement of
 How do we prove this chilling effect exists?
 
 The approach was to analyse the number of views of certain English language Wikipedia articles. The list of articles was chosen from a list of keywords the U.S. Department of Homeland Security uses to track and monitor social media and the most pertinent ones were chosen through a crowdsorcing process.
+
+
+
+<img src="\images\wordcloud.png">
