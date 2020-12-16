@@ -73,6 +73,8 @@ We decided to focus solely on German-language articles because the location of G
 
 We can split this data into distinct origins:
 
+**Ce serait stylé d'avoir un map**
+
 - Germany
 - Austria
 - Switzerland
