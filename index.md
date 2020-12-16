@@ -59,4 +59,6 @@ We started by collecting possible Wikipedia articles that could be of interest t
 
 Once we had this list compiled, we asked people to rank the pages from 1 to 5 (5 being the highest) on "Which of these Wikipedia articles would you most likely consult to inform yourself on the protection of your personal data online?"
 
+<img src="\images\all_gdpr_wordcloud.jpg">
+
 <img src="\images\wordcloud.jpg">
