@@ -1,6 +1,6 @@
 ## Chilling Effects : Online Surveillance and Wikipedia Use
 
-In June 2013, Edward Snowden revealed the extent of mass surveillance in the United States. As a result of this, the question arose: Did this news produce a "chilling effect"? In other terms, did Wikipedia traffic for articles on privacy-sensitive topics decrease after the “exogenous shock” of widespread publicity surrounding the surveillance programs in June 2013?
+In June 2013, Edward Snowden revealed the extent of mass surveillance in the United States. As a result of this, a question arose: Did this news produce a "chilling effect"? In other terms, did Wikipedia traffic for articles on privacy-sensitive topics decrease after the “exogenous shock” of widespread publicity surrounding the surveillance programs in June 2013?
 
 <img src="\images\surveillance.jpg">
 
@@ -12,9 +12,9 @@ In June 2013, Edward Snowden revealed the extent of mass surveillance in the Uni
 
 ---
 
-### How do we prove this chilling effect exists?
+### How can we test for the existance of this chilling effect ?
 
-The approach was to analyse the traffic of certain English language Wikipedia articles. The list of articles was chosen using the government keyword lists, that the U.S. Department of Homeland Security uses to track and monitor social media and the most pertinent ones were chosen through a crowdsorcing process. More precisely, the articles used in the study were the ones associated with the keywords list "terrorism".
+The approach was to analyse the traffic of certain English language Wikipedia articles. The list of articles was chosen using the government keyword lists, that the U.S. Department of Homeland Security uses to track and monitor social media and the most pertinent ones were chosen through a crowdsourcing process. More precisely, the articles used in the study were the ones associated with the keywords list "terrorism".
 
 In order to verify the relevance of using these articles, respondents were asked to indicate on a scale of 1 to 5 (1 being very unlikely and 5 being very likely):
 
@@ -76,7 +76,7 @@ We now plot the 2020 de.wikipedia.org pageviews with respect to these groups.
 
 **joli graph des drapeaux 2020**
 
-An argument could be made that coronavirus has upset so many things in 2020 that perhaps it altered the pageview origins as well. Alright, then let's do the same analysis for 2019 de.wikipedia.org pageviews.
+An argument could be made that coronavirus has upset so many things in 2020 that perhaps it altered the pageview origins as well. So let's do the same analysis for 2019 de.wikipedia.org pageviews.
 
 **joli graph 2019**
 
@@ -91,7 +91,7 @@ We started by collecting possible Wikipedia articles that could be of interest t
 
 <img src="\images\GDPR.jpg">
 
-Since this list can contain article directly correlated with the subject, as well as very general articles, a ranking had to be done in order to select our article set. So once we had this list compiled, we asked people to rank the pages on the question "Which of these Wikipedia articles would you most likely consult to inform yourself on the protection of your personal data online?". The ranking was from 1 to 5, 5 being "Very likely" and 1 "Not at all likely". Thirteen people participated.
+Since this list can contain articles directly correlated with the subject, as well as very general articles, a ranking had to be done in order to select our article set. Once we had this list compiled, we asked thirteen participants to rank the pages on the question "Which of these Wikipedia articles would you most likely consult to inform yourself on the protection of your personal data online?". The ranking was from 1 to 5, 5 being "Very likely" and 1 "Not at all likely".
 
 <img src="\images\all_gdpr_wordcloud.jpg">
 
