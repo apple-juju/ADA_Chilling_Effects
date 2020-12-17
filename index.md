@@ -62,7 +62,7 @@ We decided to focus solely on German-language articles because the location of G
 
 We can split this data into distinct origins:
 
-<img src="\images\map_europe.jpg">
+<img src="\images\map_europe.jpg" width="200"/>
 
 - Germany
 - Austria
