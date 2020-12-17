@@ -26,7 +26,7 @@ In order to verify the relevance of using these articles, respondents were asked
 
 - How likely they would avoid viewing or accessing information on the topic if they knew the Government was monitoring people’s activities online (Avoidance Rating).
 
-The pageviews numbers were collected over a thirty-two month period from January 2012 to August 2014, with June 2013 being the interruption (month of the NSA/PRISM surveillance revelations). An interrupted time series (ITS) was used to plot the distribution of pageviews before and after this "interruption" and hopefully use it to prove that the knowledge of NSA surveillance caused a chilling effect on Wikipedia page views.
+The pageview numbers were collected over a thirty-two month period from January 2012 to August 2014, with June 2013 being the interruption (month of the NSA/PRISM surveillance revelations). An interrupted time series (ITS) was used to plot the distribution of pageviews before and after this "interruption" and hopefully use it to prove that the knowledge of NSA surveillance caused a chilling effect on Wikipedia page views.
 
 The pageviews of each article were aggragated by month producing this distribution.
 
