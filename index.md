@@ -95,7 +95,7 @@ Since this list can contain articles directly correlated with the subject, as we
 
 <img src="\images\all_gdpr_wordcloud.jpg">
 
-From all of the available articles we only retained those with an average score of 3 or higher, thus resulting in a dataset of 45 articles. Some of these did not have data through the whole period of time (for example because created later), so we had a final set of ___*TODO!!!!*___ articles.
+From all of the available articles we only retained those with an average score of 3 or higher, thus resulting in a dataset of 45 articles. We chose the cutoff score of 3 because this gave us a similar number of articles to the "chilling effect" dataset and an average score of 3 seemed like an acceptable rating of interest. Some of these did not have data through the whole period of time (for example because created later), so we had a final set of ___*TODO!!!!*___ articles.
 
 <img src="\images\wordcloud.jpg">
 
