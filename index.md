@@ -32,7 +32,8 @@ The pageviews of each article were aggragated by month producing this distributi
 
 **Add distribution with Hamas**
 
-Upon further inspection, obvious outliers were found at month 11 (November 2012) and at month 31 (July 2014). After some research these spikes in pageviews coincided with spikes in pageviews for the "Hamas" article, due to incidents of unrest in the Middle East. The "Hamas" article proving to be an outlier, it was hence removed from the dataset.
+Upon further inspection, possible outliers were identified at month 11 (November 2012) and at month 31 (July 2014). After some research these spikes in pageviews coincided with spikes in pageviews for the "Hamas" article, due to incidents of unrest in the Middle East. There was a recorded 928,533 views for the page in November
+2012, and 1,220,490 views in July 2014, both of which varied greatly from the mean number of view counts for the article across all 32 months (134,574 monthly views). The "Hamas" article proving to be an outlier, it was hence removed from the dataset.
 
 The new and improved distribution of monthly pageviews look like this: 
 
