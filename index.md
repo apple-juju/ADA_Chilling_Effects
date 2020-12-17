@@ -1,6 +1,3 @@
-{% include jekyll_mapping.html %}
-</body>
-
 ## Chilling Effects : Online Surveillance and Wikipedia Use
 
 In June 2013, Edward Snowden revealed the extent of mass surveillance in the United States. As a result of this, a question arose: Did this news produce a "chilling effect"? In other terms, did Wikipedia traffic for articles on privacy-sensitive topics decrease after the “exogenous shock” of widespread publicity surrounding the surveillance programs in June 2013?
@@ -73,8 +70,6 @@ We can split this data into distinct origins:
 - Liechtenstein
 - The rest of the European Economic Area (EEA)
 - The rest of the world
-
-{% render_map %}
 
 It is of note that Switzerland is not part of the EEA; however, since it is landlocked and all of its neighbours EEA members, and since GDPR-compliance is mandatory for selling digital services within the EEA, we can safely consider Switzerland to have been strongly impacted by GDPR too. It is also of note that the UK was included in this analysis as it is still considered as being part of the EEA in 2020.
 
