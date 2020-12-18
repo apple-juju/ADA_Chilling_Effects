@@ -126,3 +126,18 @@ To get a better sense of how this compares to other Wikipedia articles view tren
 Furthermore, we can compare our trend to that of the most popular Wikipedia articles of 2015, 2016 and 2017 (the years studied for the GDPR-related articles)
 
 <img src="\images\privacy_control_2.png">
+
+## Conclusion
+
+Our work only shows that the number of pageviews for our set of privacy-related articles did only follow the general trend on Wikipedia. As such, we conclude that there is little to no correlation between the adoption of GDPR and the number of pageviews on privacy-related articles.
+
+To explain this, we can make the following conjectures:
+- GDPR adoption received too little publicity to meaningfully change the number of pageviews - this could be verified by looking at Google Trends for GDPR-related keywords, or Google News articles featuring the keyword `GDPR`.
+- People do not use Wikipedia to gain knowledge on how to protect their privacy online but prefer other websites - this could be verified by looking at Google Trends for privacy-related keywords.
+- GDPR adoption did not affect the propensity of users to want to protect their online privacy - if our previous conjecture is proven wrong, it means that this one is most probably true. This could be validated by behavioural studies.
+
+Also, our study has several structural weaknesses:
+- It lacks datapoints before the Interruption to be balanced on both sides; this is due to Wikipedia pageviews measurment changing in mid-2015
+- It is unclear whether the adoption of a regulation can be considered like an Interruption, since lawmaking is a process usually taking time
+
+In conclusion, even if our study does only prove the absence of correlation between the number of pageviews on privacy-related articles and the adoption of GDPR, it represents a basis on which studies could be constructed in order to assert the effectiveness of regulation on population awareness of privacy concerns.
