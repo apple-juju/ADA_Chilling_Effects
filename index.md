@@ -97,6 +97,8 @@ Since this list can contain articles directly correlated with the subject, as we
 
 From all of the available articles we only retained those with an average score of 3 or higher, thus resulting in a dataset of 26 articles. We chose the cut-off score of 3 because this gave us a similar number of articles to the "chilling effect" dataset and an average score of 3 seemed like an acceptable rating of interest. Some of these did not have data through the whole period of time (for example because created later), so we had a final set of 22 articles.
 
+Here's a wordcloud of the terms in our top 22 articles.
+
 <img src="\images\wordcloud.jpg">
 
 ### Result
