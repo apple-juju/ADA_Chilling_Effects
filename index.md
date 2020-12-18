@@ -33,24 +33,27 @@ Upon further inspection, possible outliers were identified at month 11 (November
 
 You can see here Hamas' distribution:
 
-**Distribution of Hamas**
+<img src="\images\hamas.png">
 
 Finally, in order to views the trend before and after the intervention month, a segmented linear regression is performed of the dataset. As you can guess, the regression is segmented in two parts: before and after June 2013.
 
 This gives us the following result:
 
-<img src="\images\most_popular.JPG">
+<img src="\images\figure_3.png">
 
-We can see a large pageview "dropoff" in this distribution at the moment of Snowden's revelations and furthermore we can see that the overall trend of pageviews after June 2013 has a negative trend compared to the positive trend beforehand.
+We can see a large pageview dropoff int he pageviews at the moment of Snowden's revelations and furthermore we can see that the overall trend of pageviews after June 2013 has a negative trend compared to the positive trend beforehand.
 
-In order to see if the dropoff and the tendencies are connected to our articles and not general to the Wikipedia viewing trend, we compare this with the pageviews of the most popular Wikipedia articles over the same period. We can see the trend is severly different, hence it confirms the idea that this effect is due to the revelations of June 2013.
+In order to see if the dropoff and the tendencies are connected to our articles and not general to the Wikipedia viewing trend, the concept of "control group" is instaured. The pageviews of the most popular Wikipedia articles over the same period are ploted, in order to see if the tendencies found earlier are a general tendency ir directly linked to the articles.
 
+<img src="\images\figure_5.png">
+
+We can see the trend is severly different, hence it confirms the idea that this effect is due to the revelations of June 2013.
 
 ## Our extention: the effect of the GDPR
 
-Questions can be asked as to the effect of liberty on our internet usage. If a feeling of being watched could curtail our curiosty on certain subjects, could the feeling of freedom encourage to seek out information on the online privacy topic, in order to understand better what can or cannot be watched? This was the question we asked ourselves.
+Questions can be asked as to the effect of liberty on our internet usage. Has the adoption of GDPR in 2016 induced european users to inform themselves about how to protect their own privacy? This was the question we asked ourselves.
 
-In order to answer this question, we used the establishment of the General Data Protection Regulation (GDPR) in Europe as our basis, and Wikipedia articles in German.
+In order to answer this question, we used Wikipedia articles relative to privacy and personal data protection in German, and the establishment of the General Data Protection Regulation (GDPR) in Europe to see whether these articles got any particular attention thanks to GDPR introduction
 
 Would the knowledge that your privacy was better protected push you to seek out the how and the way of that protection? Let's look into it.
 
