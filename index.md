@@ -51,6 +51,8 @@ In order to see if the dropoff and the tendencies are connected to our articles 
 
 We can see the trend is severly different, hence it confirms the idea that this effect is due to the revelations of June 2013.
 
+---
+
 ## Our extension: Regional Data Protection Regulation Impact on Personal Privacy Protection Concerns
 
 Questions can be asked as to the effect of liberty on our internet usage. Has the adoption of GDPR in 2016 induced european users to inform themselves about how to protect their own privacy? This was the question we asked ourselves.
