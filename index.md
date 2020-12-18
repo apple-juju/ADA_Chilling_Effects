@@ -1,6 +1,6 @@
 For a quick tl;dr, check out our elevator pitch!
 
-[![Watch the video](<img src="\images\video_image.jpg">)](https://www.youtube.com/watch?v=304K25vIc7o)
+[![Watch the video](<img src=".\images\video_image.jpg">)](https://www.youtube.com/watch?v=304K25vIc7o)
 
 ## Chilling Effects : Online Surveillance and Wikipedia Use
 
@@ -43,13 +43,13 @@ Finally, in order to view the trend before and after the intervention month, a s
 
 This gives us the following result:
 
-<img src="\images\figure_3.png">
+<img src=".\images\figure_3.png">
 
 We can see a large pageview dropoff in the pageviews at the moment of Snowden's revelations and furthermore we can see that the overall trend of pageviews after June 2013 has a negative trend compared to the positive trend beforehand.
 
 In order to see if the dropoff and the tendencies are connected to our articles and not general to the Wikipedia viewing trend, the concept of "control group" is instaured. The pageviews of the most popular Wikipedia articles over the same period are ploted, in order to see if the tendencies found earlier are a general tendency ir directly linked to the articles.
 
-<img src="\images\figure_5.png">
+<img src=".\images\figure_5.png">
 
 We can see the trend is severly different, hence it confirms the idea that this effect is due to the revelations of June 2013.
 
@@ -74,17 +74,17 @@ We can split this data into distinct origins:
 - The rest of the European Economic Area (EEA)
 - The rest of the world
 
-<center><img src="\images\map_europe.jpg" width="400"/></center>
+<center><img src=".\images\map_europe.jpg" width="400"/></center>
 
 It is of note that Switzerland is not part of the EEA; however, since it is landlocked and all of its neighbours EEA members, and since GDPR-compliance is mandatory for selling digital services within the EEA, we can safely consider Switzerland to have been strongly impacted by GDPR too. It is also of note that the UK was included in this analysis as it is still considered as being part of the EEA in 2020.
 
 We now plot the 2020 de.wikipedia.org pageviews with respect to these groups.
 
-<img src="\images\german2020.png">
+<img src=".\images\german2020.png">
 
 An argument could be made that coronavirus has upset so many things in 2020 that perhaps it altered the pageview origins as well. So let's do the same analysis for 2019 de.wikipedia.org pageviews.
 
-<img src="\images\german2019.png">
+<img src=".\images\german2019.png">
 
 As we can see both graphs as extremely similar and prove our hypothesis on the origin of German-language pageviews; they come almost entirely from European countries, countries that are effected by GDPR.
 
@@ -95,7 +95,7 @@ Let's delve further into our German article analysis...
 
 We started by collecting possible Wikipedia articles that could be of interest to the problem. We did this by simply visiting the Wikipedia page for "General Data Protection Regulation" and creating a list of all the referenced articles it contained (links in blue).
 
-<img src="\images\GDPR.jpg">
+<img src=".\images\GDPR.jpg">
 
 Since this list can contain articles directly correlated with the subject, as well as very general articles, a ranking had to be done in order to select our article set. Once we had this list compiled, we asked thirteen participants to rank the pages on the question "Which of these Wikipedia articles would you most likely consult to inform yourself on the protection of your personal data online?". The ranking was from 1 to 5, 5 being "Very likely" and 1 "Not at all likely".
 
@@ -103,33 +103,33 @@ From all of the available articles we only retained those with an average score 
 
 Here's a wordcloud of the terms in our top 22 articles.
 
-<img src="\images\wordcloud.jpg">
+<img src=".\images\wordcloud.jpg">
 
 ### Result
 
 To see if we can observe an increase in interest regarding online privacy issues after the establishment of the GDPR, we use the same technics as in the paper: compute and plot the trends. We got the following distribution
 
-<img src="\images\distribution.jpg">
+<img src=".\images\distribution.jpg">
 
 Here we can see that there seems to be outliers. Indeed, after research we found two articles containing months that were outliers: "European Union" and "Iceland". Let's plot their pageviews.
 
-<img src="\images\distribution_iceland.jpg">
+<img src=".\images\distribution_iceland.jpg">
 
 Once we remove these outliers we can visualise our data more clearly.
 
-<img src="\images\distribution_cleaned.jpg">
+<img src=".\images\distribution_cleaned.jpg">
 
 We can finally plot our data using the same methods used in the paper
 
-<img src="\images\privacy.png">
+<img src=".\images\privacy.png">
 
 To get a better sense of how this compares to other Wikipedia articles view trends we can plot it against a control group made up of articles that got a rating of less than 2 in our crowdsourcing.
 
-<img src="\images\privacy_control_1.png">
+<img src=".\images\privacy_control_1.png">
 
 Furthermore, we can compare our trend to that of the most popular Wikipedia articles of 2015, 2016 and 2017 (the years studied for the GDPR-related articles)
 
-<img src="\images\privacy_control_2.png">
+<img src=".\images\privacy_control_2.png">
 
 ## Conclusion
 
@@ -146,4 +146,4 @@ Also, our study has several structural weaknesses:
 
 In conclusion, even if our study only proves the absence of correlation between the number of pageviews on privacy-related articles and the adoption of GDPR, it represents a basis on which studies could be constructed in order to assert the effectiveness of regulation on population awareness of privacy concerns.
 
-<center><img src="\images\cellphones.jpg"></center>
+<center><img src=".\images\cellphones.jpg"></center>
