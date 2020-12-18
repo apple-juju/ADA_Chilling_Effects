@@ -76,11 +76,11 @@ It is of note that Switzerland is not part of the EEA; however, since it is land
 
 We now plot the 2020 de.wikipedia.org pageviews with respect to these groups.
 
-<img src="\images\german2020.JPG">
+<img src="\images\german2020.png">
 
 An argument could be made that coronavirus has upset so many things in 2020 that perhaps it altered the pageview origins as well. So let's do the same analysis for 2019 de.wikipedia.org pageviews.
 
-<img src="\images\german2019.JPG">
+<img src="\images\german2019.png">
 
 As we can see both graphs as extremely similar and prove our hypothesis on the origin of German-language pageviews; they come almost entirely from European countries, countries that are effected by GDPR.
 
