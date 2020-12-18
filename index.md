@@ -1,6 +1,6 @@
 For a quick tl;dr, check out our elevator pitch!
 
-[![Watch the video](img src="\images\video_image.jpg")](https://www.youtube.com/watch?v=304K25vIc7o)
+[![Watch the video](<img src="\images\video_image.jpg">)](https://www.youtube.com/watch?v=304K25vIc7o)
 
 ## Chilling Effects : Online Surveillance and Wikipedia Use
 
