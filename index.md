@@ -115,8 +115,14 @@ Once we remove these outliers we can visualise our data more clearly.
 
 <img src="\images\distribution_cleaned.jpg">
 
-
+We can finally plot our data using the same methods used in the paper
 
 <img src="\images\privacy.png">
+
+To get a better sense of how this compares to other Wikipedia articles view trends we can plot it against a control group made up of articles that got a rating of less than 2 in our crowdsourcing.
+
 <img src="\images\privacy_control_1.png">
+
+Furthermore, we can compare our trend to that of the most popular Wikipedia articles of 2015, 2016 and 2017 (the years studied for the GDPR-related articles)
+
 <img src="\images\privacy_control_2.png">
