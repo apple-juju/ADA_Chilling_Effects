@@ -100,9 +100,15 @@ From all of the available articles we only retained those with an average score 
 
 To see if we can observe an increase in interest regarding online privacy issues after the establishment of the GDPR, we use the same technics as in the paper: compute and plot the trends. We got the following distribution
 
-**Add distribution with outlier**
+<img src="\images\distribution.jpg">
 
 Here we can see that there seems to be outliers. Indeed, after research we found two articles containing months that were outliers: "European Union" and "Iceland". Let's plot their pageviews.
 
-**Add "European Union" and "Iceland"**
+<img src="\images\distribution_iceland.jpg">
+
+Once we remove these outliers we can visualise our data more clearly.
+
+<img src="\images\distribution_cleaned.jpg">
+
+
 
