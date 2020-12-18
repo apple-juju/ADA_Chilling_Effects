@@ -95,7 +95,7 @@ We started by collecting possible Wikipedia articles that could be of interest t
 
 Since this list can contain articles directly correlated with the subject, as well as very general articles, a ranking had to be done in order to select our article set. Once we had this list compiled, we asked thirteen participants to rank the pages on the question "Which of these Wikipedia articles would you most likely consult to inform yourself on the protection of your personal data online?". The ranking was from 1 to 5, 5 being "Very likely" and 1 "Not at all likely".
 
-From all of the available articles we only retained those with an average score of 3 or higher, thus resulting in a dataset of 45 articles. We chose the cut-off score of 3 because this gave us a similar number of articles to the "chilling effect" dataset and an average score of 3 seemed like an acceptable rating of interest. Some of these did not have data through the whole period of time (for example because created later), so we had a final set of ___*TODO!!!!*___ articles.
+From all of the available articles we only retained those with an average score of 3 or higher, thus resulting in a dataset of 26 articles. We chose the cut-off score of 3 because this gave us a similar number of articles to the "chilling effect" dataset and an average score of 3 seemed like an acceptable rating of interest. Some of these did not have data through the whole period of time (for example because created later), so we had a final set of 22 articles.
 
 <img src="\images\wordcloud.jpg">
 
