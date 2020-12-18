@@ -141,3 +141,5 @@ Also, our study has several structural weaknesses:
 - It is unclear whether the adoption of a regulation can be considered like Interruption, since lawmaking is a process that usually takes time.
 
 In conclusion, even if our study only proves the absence of correlation between the number of pageviews on privacy-related articles and the adoption of GDPR, it represents a basis on which studies could be constructed in order to assert the effectiveness of regulation on population awareness of privacy concerns.
+
+<img src="\images\cellphones.jpg">
