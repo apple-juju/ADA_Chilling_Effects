@@ -33,24 +33,27 @@ Upon further inspection, possible outliers were identified at month 11 (November
 
 You can see here Hamas' distribution:
 
-**Distribution of Hamas**
+<img src="\images\hamas.png">
 
 Finally, in order to view the trend before and after the intervention month, a segmented linear regression is performed of the dataset. As you can guess, the regression is segmented in two parts: before and after June 2013.
 
 This gives us the following result:
 
-<img src="\images\most_popular.JPG">
+<img src="\images\figure_3.png">
 
-We can see a large pageview "drop-off" in this distribution at the moment of Snowden's revelations and furthermore we can see that the overall trend of pageviews after June 2013 has a negative trend compared to the positive trend beforehand.
+We can see a large pageview dropoff in the pageviews at the moment of Snowden's revelations and furthermore we can see that the overall trend of pageviews after June 2013 has a negative trend compared to the positive trend beforehand.
 
-In order to see if the drop-off and the tendencies are connected to our articles and not general to the Wikipedia viewing trend, we compare this with the pageviews of the most popular Wikipedia articles over the same period. We can see the trend is severely different, hence it confirms the idea that this effect is due to the revelations of June 2013.
+In order to see if the dropoff and the tendencies are connected to our articles and not general to the Wikipedia viewing trend, the concept of "control group" is instaured. The pageviews of the most popular Wikipedia articles over the same period are ploted, in order to see if the tendencies found earlier are a general tendency ir directly linked to the articles.
 
+<img src="\images\figure_5.png">
 
-## Our extension: the effect of the GDPR
+We can see the trend is severly different, hence it confirms the idea that this effect is due to the revelations of June 2013.
 
-Questions can be asked as to the effect of liberty on our internet usage. If a feeling of being watched could curtail our curiosity on certain subjects, could the feeling of freedom encourage to seek out information on the online privacy topic, in order to understand better what can or cannot be watched? This was the question we asked ourselves.
+## Our extension: Regional Data Protection Regulation Impact on Personal Privacy Protection Concerns
 
-In order to answer this question, we used the establishment of the General Data Protection Regulation (GDPR) in Europe as our basis, and Wikipedia articles in German.
+Questions can be asked as to the effect of liberty on our internet usage. Has the adoption of GDPR in 2016 induced european users to inform themselves about how to protect their own privacy? This was the question we asked ourselves.
+
+In order to answer this question, we used Wikipedia articles relative to privacy and personal data protection in German, and the establishment of the General Data Protection Regulation (GDPR) in Europe to see whether these articles got any particular attention thanks to GDPR introduction
 
 Would the knowledge that your privacy was better protected push you to seek out the how and the way of that protection? Let's look into it.
 
@@ -67,17 +70,17 @@ We can split this data into distinct origins:
 - The rest of the European Economic Area (EEA)
 - The rest of the world
 
-<img src="\images\map_europe.jpg" width="400"/>
+<center><img src="\images\map_europe.jpg" width="400"/></center>
 
 It is of note that Switzerland is not part of the EEA; however, since it is landlocked and all of its neighbours EEA members, and since GDPR-compliance is mandatory for selling digital services within the EEA, we can safely consider Switzerland to have been strongly impacted by GDPR too. It is also of note that the UK was included in this analysis as it is still considered as being part of the EEA in 2020.
 
 We now plot the 2020 de.wikipedia.org pageviews with respect to these groups.
 
-<img src="\images\german2020.JPG">
+<img src="\images\german2020.png">
 
 An argument could be made that coronavirus has upset so many things in 2020 that perhaps it altered the pageview origins as well. So let's do the same analysis for 2019 de.wikipedia.org pageviews.
 
-<img src="\images\german2019.JPG">
+<img src="\images\german2019.png">
 
 As we can see both graphs as extremely similar and prove our hypothesis on the origin of German-language pageviews; they come almost entirely from European countries, countries that are effected by GDPR.
 
@@ -92,7 +95,9 @@ We started by collecting possible Wikipedia articles that could be of interest t
 
 Since this list can contain articles directly correlated with the subject, as well as very general articles, a ranking had to be done in order to select our article set. Once we had this list compiled, we asked thirteen participants to rank the pages on the question "Which of these Wikipedia articles would you most likely consult to inform yourself on the protection of your personal data online?". The ranking was from 1 to 5, 5 being "Very likely" and 1 "Not at all likely".
 
-From all of the available articles we only retained those with an average score of 3 or higher, thus resulting in a dataset of 45 articles. We chose the cut-off score of 3 because this gave us a similar number of articles to the "chilling effect" dataset and an average score of 3 seemed like an acceptable rating of interest. Some of these did not have data through the whole period of time (for example because created later), so we had a final set of ___*TODO!!!!*___ articles.
+From all of the available articles we only retained those with an average score of 3 or higher, thus resulting in a dataset of 26 articles. We chose the cut-off score of 3 because this gave us a similar number of articles to the "chilling effect" dataset and an average score of 3 seemed like an acceptable rating of interest. Some of these did not have data through the whole period of time (for example because created later), so we had a final set of 22 articles.
+
+Here's a wordcloud of the terms in our top 22 articles.
 
 <img src="\images\wordcloud.jpg">
 
@@ -110,5 +115,29 @@ Once we remove these outliers we can visualise our data more clearly.
 
 <img src="\images\distribution_cleaned.jpg">
 
+We can finally plot our data using the same methods used in the paper
 
+<img src="\images\privacy.png">
 
+To get a better sense of how this compares to other Wikipedia articles view trends we can plot it against a control group made up of articles that got a rating of less than 2 in our crowdsourcing.
+
+<img src="\images\privacy_control_1.png">
+
+Furthermore, we can compare our trend to that of the most popular Wikipedia articles of 2015, 2016 and 2017 (the years studied for the GDPR-related articles)
+
+<img src="\images\privacy_control_2.png">
+
+## Conclusion
+
+Our work only shows that the number of pageviews for our set of privacy-related articles only followed the general trend on Wikipedia. As such, we conclude that there is little to no correlation between the adoption of GDPR and the number of pageviews on privacy-related articles.
+
+To explain this, we can make the following conjectures:
+- GDPR adoption received too little publicity to meaningfully change the number of pageviews - this could be verified by looking at Google Trends for GDPR-related keywords, or Google News articles featuring the keyword GDPR.
+- People do not use Wikipedia to gain knowledge on how to protect their privacy online but prefer other websites - this could be verified by looking at Google Trends for privacy-related keywords.
+- GDPR adoption did not affect the propensity of users to want to protect their online privacy - if our previous conjecture is proven wrong, it means that this one is most probably true. This could be validated by behavioural studies.
+
+Also, our study has several structural weaknesses:
+- It lacks datapoints before the Interruption to be balanced on both sides; this is due to Wikipedia pageviews measurment changing in mid-2015.
+- It is unclear whether the adoption of a regulation can be considered like Interruption, since lawmaking is a process that usually takes time.
+
+In conclusion, even if our study only proves the absence of correlation between the number of pageviews on privacy-related articles and the adoption of GDPR, it represents a basis on which studies could be constructed in order to assert the effectiveness of regulation on population awareness of privacy concerns.
