@@ -140,4 +140,4 @@ Also, our study has several structural weaknesses:
 - It lacks datapoints before the Interruption to be balanced on both sides; this is due to Wikipedia pageviews measurment changing in mid-2015.
 - It is unclear whether the adoption of a regulation can be considered like Interruption, since lawmaking is a process that usually takes time.
 
-In conclusion, even if our study does only prove the absence of correlation between the number of pageviews on privacy-related articles and the adoption of GDPR, it represents a basis on which studies could be constructed in order to assert the effectiveness of regulation on population awareness of privacy concerns.
+In conclusion, even if our study only proves the absence of correlation between the number of pageviews on privacy-related articles and the adoption of GDPR, it represents a basis on which studies could be constructed in order to assert the effectiveness of regulation on population awareness of privacy concerns.
