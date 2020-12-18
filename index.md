@@ -129,7 +129,7 @@ Furthermore, we can compare our trend to that of the most popular Wikipedia arti
 
 ## Conclusion
 
-Our work only shows that the number of pageviews for our set of privacy-related articles did only follow the general trend on Wikipedia. As such, we conclude that there is little to no correlation between the adoption of GDPR and the number of pageviews on privacy-related articles.
+Our work only shows that the number of pageviews for our set of privacy-related articles only followed the general trend on Wikipedia. As such, we conclude that there is little to no correlation between the adoption of GDPR and the number of pageviews on privacy-related articles.
 
 To explain this, we can make the following conjectures:
 - GDPR adoption received too little publicity to meaningfully change the number of pageviews - this could be verified by looking at Google Trends for GDPR-related keywords, or Google News articles featuring the keyword GDPR.
