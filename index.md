@@ -142,4 +142,4 @@ Also, our study has several structural weaknesses:
 
 In conclusion, even if our study only proves the absence of correlation between the number of pageviews on privacy-related articles and the adoption of GDPR, it represents a basis on which studies could be constructed in order to assert the effectiveness of regulation on population awareness of privacy concerns.
 
-<img src="\images\cellphones.jpg">
+<center><img src="\images\cellphones.jpg"></center>
