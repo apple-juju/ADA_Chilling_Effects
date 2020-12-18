@@ -117,3 +117,6 @@ Once we remove these outliers we can visualise our data more clearly.
 
 
 
+<img src="\images\privacy.png">
+<img src="\images\privacy_control_1.png">
+<img src="\images\privacy_control_2.png">
