@@ -95,7 +95,7 @@ We started by collecting possible Wikipedia articles that could be of interest t
 
 <img src=".\images\GDPR.jpg">
 
-Since this list can contain articles directly correlated with the subject, as well as very general articles, a ranking had to be done in order to select our article set. Once we had this list compiled, we asked thirteen participants to rank the pages on the question "Which of these Wikipedia articles would you most likely consult to inform yourself on the protection of your personal data online?". The ranking was from 1 to 5, 5 being "Very likely" and 1 "Not at all likely".
+Since this list can contain articles directly correlated with the subject, as well as very general articles, a ranking had to be done in order to select our article set. Once we had this list compiled, we asked thirteen participants to rank the pages on the question "*Which of these Wikipedia articles would you most likely consult to inform yourself on the protection of your personal data online?*". The ranking was from 1 to 5, 5 being "Very likely" and 1 "Not at all likely".
 
 From all of the available articles we only retained those with an average score of 3 or higher, thus resulting in a dataset of 26 articles. We chose the cut-off score of 3 because this gave us a similar number of articles to the "chilling effect" dataset and an average score of 3 seemed like an acceptable rating of interest. Some of these did not have data through the whole period of time (for example because created later), so we had a final set of 22 articles.
 
@@ -113,7 +113,12 @@ Here we can see that there seems to be outliers. Indeed, after research we found
 
 <img src=".\images\distribution_iceland.jpg">
 
-Once we remove these outliers we can visualise our data more clearly.
+These two articles clearly are strong outliers inside our dataset. There are very logical explanations for this:
+
+- Iceland stands out in June and July 2016 because of their results during the Football World Cup of 2016
+- The EU stands out in June 2016 because of the Brexit vote happening the same month
+
+In order to preserve the validity of our regressions later on, we remove both articles from the dataset.
 
 <img src=".\images\distribution_cleaned.jpg">
 
@@ -121,13 +126,25 @@ We can finally plot our data using the same methods used in the paper
 
 <img src=".\images\privacy.png">
 
-To get a better sense of how this compares to other Wikipedia articles view trends we can plot it against a control group made up of articles that got a rating of less than 2 in our crowdsourcing.
+Here again, results are unambiguous: there is a lasting change of trend after the interruption, with the total number of pageviews shrinking. Let us take a look at the possible causes:
+- People felt reassured enough by GDPR adoption to not have to protect their privacy by themselves
+- People were more interested in privacy-related topics before GDPR adoption, since the topic was probably more discussed in media than after, like most of laws
+
+In order to either confirm or contradict these conjectures, we have to compare these results with our comparison articles - the ones that got a rating of less than 2 in our crowdsourcing -, in order to see if articles less informative on privacy protection followed the same trend or not.
 
 <img src=".\images\privacy_control_1.png">
 
-Furthermore, we can compare our trend to that of the most popular Wikipedia articles of 2015, 2016 and 2017 (the years studied for the GDPR-related articles)
+We easily see that secular trend and change in slope are very close to one another for both series.
+
+From this, we can guess that our first conjecture, i.e. that people felt reassured enough by GDPR adoption to not have to protect their privacy by themselves, is likely to be false. Indeed, if it were a significant phenomenon, the change in trend would be significantly more important for privacy-related articles, which is not the case.
+
+However, it seems to confirm a variation of the second conjecture where people simply lose interest in topics related to GDPR in general as this topic likely disappears from the media after its adoption.
+
+We further compare our dataset to that of the most popular Wikipedia articles of 2015, 2016 and 2017 (the years studied for the GDPR-related articles).
 
 <img src=".\images\privacy_control_2.png">
+
+This shows that our set of privacy-related articles mostly follows general Wikipedia trend.
 
 ## Conclusion
 
