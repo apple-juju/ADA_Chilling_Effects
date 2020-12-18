@@ -12,7 +12,7 @@ In June 2013, Edward Snowden revealed the extent of mass surveillance in the Uni
 
 ---
 
-### How can we test for the existance of this chilling effect ?
+### How can we test for the existence of this chilling effect?
 
 The approach was to analyse the traffic of certain English language Wikipedia articles. The list of articles was chosen using the government keyword lists, that the U.S. Department of Homeland Security uses to track and monitor social media and the most pertinent ones were chosen through a crowdsourcing process. More precisely, the articles used in the study were the ones associated with the keywords list "terrorism".
 
@@ -26,31 +26,29 @@ In order to verify the relevance of using these articles, respondents were asked
 
 - How likely they would avoid viewing or accessing information on the topic if they knew the Government was monitoring people’s activities online (Avoidance Rating).
 
-The pageview numbers were collected over a thirty-two month period from January 2012 to August 2014, with June 2013 being the interruption (month of the NSA/PRISM surveillance revelations). An interrupted time series (ITS) was used to plot the distribution of pageviews before and after this "interruption" and hopefully use it to prove that the knowledge of NSA surveillance caused a chilling effect on Wikipedia page views.
-
-The pageviews of each article were aggragated by month producing this distribution.
-
-**Add distribution with Hamas**
+The pageview numbers were collected over a thirty-two month period from January 2012 to August 2014, with June 2013 being the interruption (month of the NSA/PRISM surveillance revelations). An interrupted time series (ITS), which is a series of measurements on the time axis, interrupted by a sudden event at some point in time, was used to plot the distribution of pageviews before and after this "interruption" and hopefully use it to prove that the knowledge of NSA surveillance caused a chilling effect on Wikipedia page views.
 
 Upon further inspection, possible outliers were identified at month 11 (November 2012) and at month 31 (July 2014). After some research these spikes in pageviews coincided with spikes in pageviews for the "Hamas" article, due to incidents of unrest in the Middle East. There was a recorded 928,533 views for the page in November
 2012, and 1,220,490 views in July 2014, both of which varied greatly from the mean number of view counts for the article across all 32 months (134,574 monthly views). The "Hamas" article proving to be an outlier, it was hence removed from the dataset.
 
-The new and improved distribution of monthly pageviews look like this: 
+You can see here Hamas' distribution:
 
-**Distribution without Hamas**
+**Distribution of Hamas**
 
-We can see a large pageview "dropoff" in this distribution at the moment of Snowden's revelations and furthermore we can see that the overall trend of pageviews after June 2013 has a negative trend compared to the positive trend beforehand.
+Finally, in order to view the trend before and after the intervention month, a segmented linear regression is performed of the dataset. As you can guess, the regression is segmented in two parts: before and after June 2013.
 
-In order to see if the dropoff and the tendencies are connected to our articles and not general to the Wikipedia viewing trend, we compare this with the pageviews of the most popular Wikipedia articles over the same period. We can see the trend is severly different, hence it confirms the idea that this effect is due to the revelations of June 2013.
-
-**avoir graph plus joli**
+This gives us the following result:
 
 <img src="\images\most_popular.JPG">
 
+We can see a large pageview "drop-off" in this distribution at the moment of Snowden's revelations and furthermore we can see that the overall trend of pageviews after June 2013 has a negative trend compared to the positive trend beforehand.
 
-## Our extention: the effect of the GDPR
+In order to see if the drop-off and the tendencies are connected to our articles and not general to the Wikipedia viewing trend, we compare this with the pageviews of the most popular Wikipedia articles over the same period. We can see the trend is severely different, hence it confirms the idea that this effect is due to the revelations of June 2013.
 
-Questions can be asked as to the effect of liberty on our internet usage. If a feeling of being watched could curtail our curiosty on certain subjects, could the feeling of freedom encourage to seek out information on the online privacy topic, in order to understand better what can or cannot be watched? This was the question we asked ourselves.
+
+## Our extension: the effect of the GDPR
+
+Questions can be asked as to the effect of liberty on our internet usage. If a feeling of being watched could curtail our curiosity on certain subjects, could the feeling of freedom encourage to seek out information on the online privacy topic, in order to understand better what can or cannot be watched? This was the question we asked ourselves.
 
 In order to answer this question, we used the establishment of the General Data Protection Regulation (GDPR) in Europe as our basis, and Wikipedia articles in German.
 
@@ -81,9 +79,9 @@ An argument could be made that coronavirus has upset so many things in 2020 that
 
 <img src="\images\german2019.JPG">
 
-As we can see both graphs as extremely similar and prove our hypothesis on the origin of German-language pageviews; they come almost entirely from Europeen countries, countries that are effected by GDPR.
+As we can see both graphs as extremely similar and prove our hypothesis on the origin of German-language pageviews; they come almost entirely from European countries, countries that are effected by GDPR.
 
-Let's delve furthur into our German article analysis...
+Let's delve further into our German article analysis...
 
 
 ### Data Collection
@@ -94,10 +92,17 @@ We started by collecting possible Wikipedia articles that could be of interest t
 
 Since this list can contain articles directly correlated with the subject, as well as very general articles, a ranking had to be done in order to select our article set. Once we had this list compiled, we asked thirteen participants to rank the pages on the question "Which of these Wikipedia articles would you most likely consult to inform yourself on the protection of your personal data online?". The ranking was from 1 to 5, 5 being "Very likely" and 1 "Not at all likely".
 
-<img src="\images\all_gdpr_wordcloud.jpg">
-
-From all of the available articles we only retained those with an average score of 3 or higher, thus resulting in a dataset of 45 articles. We chose the cutoff score of 3 because this gave us a similar number of articles to the "chilling effect" dataset and an average score of 3 seemed like an acceptable rating of interest. Some of these did not have data through the whole period of time (for example because created later), so we had a final set of ___*TODO!!!!*___ articles.
+From all of the available articles we only retained those with an average score of 3 or higher, thus resulting in a dataset of 45 articles. We chose the cut-off score of 3 because this gave us a similar number of articles to the "chilling effect" dataset and an average score of 3 seemed like an acceptable rating of interest. Some of these did not have data through the whole period of time (for example because created later), so we had a final set of ___*TODO!!!!*___ articles.
 
 <img src="\images\wordcloud.jpg">
 
+### Result
+
+To see if we can observe an increase in interest regarding online privacy issues after the establishment of the GDPR, we use the same technics as in the paper: compute and plot the trends. We got the following distribution
+
+**Add distribution with outlier**
+
+Here we can see that there seems to be outliers. Indeed, after research we found two articles containing months that were outliers: "European Union" and "Iceland". Let's plot their pageviews.
+
+**Add "European Union" and "Iceland"**
 
