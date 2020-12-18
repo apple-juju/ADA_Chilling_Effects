@@ -102,9 +102,9 @@ Here's a wordcloud of the terms in our top 22 articles.
 
 <img src=".\images\wordcloud.jpg">
 
-### Result
+### Results
 
-To see if we can observe an increase in interest regarding online privacy issues after the establishment of the GDPR, we use the same technics as in the paper: compute and plot the trends. We got the following distribution
+To see if we can observe an increase in interest regarding online privacy issues after the establishment of the GDPR, we use the same technics as in the paper: compute and plot the trends. We got the following distribution:
 
 <img src=".\images\distribution.jpg">
 
@@ -114,14 +114,14 @@ Here we can see that there seems to be outliers. Indeed, after research we found
 
 These two articles clearly are strong outliers inside our dataset. There are very logical explanations for this:
 
-- Iceland stands out in June and July 2016 because of their results during the Football World Cup of 2016
-- The EU stands out in June 2016 because of the Brexit vote happening the same month
+- Iceland stands out in June and July 2016 because of their results during the Football World Cup of 2016,
+- The EU stands out in June 2016 because of the Brexit vote happening the same month.
 
 In order to preserve the validity of our regressions later on, we remove both articles from the dataset.
 
 <img src=".\images\distribution_cleaned.jpg">
 
-We can finally plot our data using the same methods used in the paper
+We can finally plot our data using the same methods used in the paper.
 
 <img src=".\images\privacy.png">
 
@@ -129,7 +129,7 @@ Here again, results are unambiguous: there is a lasting change of trend after th
 - People felt reassured enough by GDPR adoption to not have to protect their privacy by themselves
 - People were more interested in privacy-related topics before GDPR adoption, since the topic was probably more discussed in media than after, like most of laws
 
-In order to either confirm or contradict these conjectures, we have to compare these results with our comparison articles - the ones that got a rating of less than 2 in our crowdsourcing -, in order to see if articles less informative on privacy protection followed the same trend or not.
+In order to either confirm or contradict these conjectures, we have to compare these results with our comparison articles - the ones that got a rating of less than 2 in our crowdsourcing - in order to see if articles less informative on privacy protection followed the same trend or not.
 
 <img src=".\images\privacy_control_1.png">
 
