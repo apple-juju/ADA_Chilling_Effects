@@ -1,9 +1,4 @@
 For a quick tl;dr, check out [our elevator pitch](https://www.youtube.com/watch?v=304K25vIc7o)!
-  
-<video width="320" height="240" controls>
-  <source src="https://www.youtube.com/watch?v=304K25vIc7o">
-  Your browser does not support the video tag.
-</video>
 
 ## Chilling Effects : Online Surveillance and Wikipedia Use
 
