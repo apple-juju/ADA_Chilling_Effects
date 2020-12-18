@@ -1,6 +1,4 @@
-For a quick tl;dr, check out our elevator pitch!
-
-[![Watch the video](<img src=".\images\video_image.jpg">)](https://www.youtube.com/watch?v=304K25vIc7o)
+For a quick tl;dr, check out [our elevator pitch](https://www.youtube.com/watch?v=304K25vIc7o)!
 
 ## Chilling Effects : Online Surveillance and Wikipedia Use
 
@@ -37,7 +35,7 @@ Upon further inspection, possible outliers were identified at month 11 (November
 
 You can see here Hamas' distribution:
 
-<img src="\images\hamas.png">
+<img src=".\images\hamas.png">
 
 Finally, in order to view the trend before and after the intervention month, a segmented linear regression is performed of the dataset. As you can guess, the regression is segmented in two parts: before and after June 2013.
 
