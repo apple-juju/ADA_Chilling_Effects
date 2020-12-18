@@ -1,5 +1,4 @@
-[![Watch the video](https://img.youtube.com/vi/304K25vIc7o/maxresdefault.jpg)](https://www.youtube.com/watch?v=304K25vIc7o
-)
+[![Watch the video](https://img.youtube.com/vi/304K25vIc7o/maxresdefault.jpg)](https://www.youtube.com/watch?v=304K25vIc7o)
 
 ## Chilling Effects : Online Surveillance and Wikipedia Use
 
