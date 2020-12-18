@@ -6,10 +6,13 @@ In June 2013, Edward Snowden revealed the extent of mass surveillance in the Uni
 
 <img src=".\images\surveillance.jpg">
 
-### But what exactly is a "Chilling Effect"?
+### But what exactly is a "Chilling Effect" ? Wikipedia defines it as:
 
-Wikipedia defines it as: "In a legal context, the inhibition or discouragement of the legitimate exercise of natural and legal rights by the threat of legal sanction"
+---
 
+"In a legal context, the inhibition or discouragement of the legitimate exercise of natural and legal rights by the threat of legal sanction"
+
+---
 
 ### How can we test for the existence of this chilling effect?
 
@@ -47,8 +50,6 @@ In order to see if the dropoff and the tendencies are connected to our articles 
 <img src=".\images\figure_5.png">
 
 We can see the trend is severly different, hence it confirms the idea that this effect is due to the revelations of June 2013.
-
----
 
 ## Our extension: Regional Data Protection Regulation Impact on Personal Privacy Protection Concerns
 
@@ -102,20 +103,20 @@ Here's a wordcloud of the terms in our top 22 articles.
 
 <img src=".\images\wordcloud.jpg">
 
-### Results
+### Result
 
-To see if we can observe an increase in interest regarding online privacy issues after the establishment of the GDPR, we use the same technics as in the paper: compute and plot the trends. We got the following distribution:
+To see if we can observe an increase in interest regarding online privacy issues after the establishment of the GDPR, we use the same techniques as in the paper: compute and plot the trends. We got the following distribution:
 
 <img src=".\images\distribution.jpg">
 
-Here we can see that there seems to be outliers. Indeed, after research we found two articles containing months that were outliers: "European Union" and "Iceland". Let's plot their pageviews.
+Here we can see that there seem to be outliers. Indeed, after research we found two articles containing months that were outliers: "European Union" and "Iceland". Let's plot their pageviews.
 
 <img src=".\images\distribution_iceland.jpg">
 
 These two articles clearly are strong outliers inside our dataset. There are very logical explanations for this:
 
-- Iceland stands out in June and July 2016 because of their results during the Football World Cup of 2016,
-- The EU stands out in June 2016 because of the Brexit vote happening the same month.
+- Iceland stands out in June and July 2016 because of their results during the Football World Cup of 2016
+- The EU stands out in June 2016 because of the Brexit vote happening the same month
 
 In order to preserve the validity of our regressions later on, we remove both articles from the dataset.
 
@@ -127,9 +128,9 @@ We can finally plot our data using the same methods used in the paper.
 
 Here again, results are unambiguous: there is a lasting change of trend after the interruption, with the total number of pageviews shrinking. Let us take a look at the possible causes:
 - People felt reassured enough by GDPR adoption to not have to protect their privacy by themselves
-- People were more interested in privacy-related topics before GDPR adoption, since the topic was probably more discussed in media than after, like most of laws
+- People were more interested in privacy-related topics before GDPR adoption, since the topic was probably more discussed in media before than after, like most laws
 
-In order to either confirm or contradict these conjectures, we have to compare these results with our comparison articles - the ones that got a rating of less than 2 in our crowdsourcing - in order to see if articles less informative on privacy protection followed the same trend or not.
+In order to either confirm or contradict these conjectures, we have to compare these results with our comparison articles - the ones that got a rating of less than 2 in our crowdsourcing, in order to see if articles less informative on privacy protection followed the same trend or not.
 
 <img src=".\images\privacy_control_1.png">
 
@@ -143,7 +144,7 @@ We further compare our dataset to that of the most popular Wikipedia articles of
 
 <img src=".\images\privacy_control_2.png">
 
-This shows that our set of privacy-related articles mostly follows general Wikipedia trend.
+This shows that our set of privacy-related articles mostly follows the general Wikipedia trend.
 
 ## Conclusion
 
